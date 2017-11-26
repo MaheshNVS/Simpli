@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SIMPLI_LEARN_TESTNG_Classes" duration-ms="9291" started-at="2017-11-26T14:26:49Z" finished-at="2017-11-26T14:26:58Z">
+    <groups>
+    </groups>
+    <test name="Test_Firefox" duration-ms="9291" started-at="2017-11-26T14:26:49Z" finished-at="2017-11-26T14:26:58Z">
+      <class name="Core_Framework.Test_Loader">
+        <test-method status="FAIL" signature="myfunction()[pri:0, instance:Core_Framework.Test_Loader@91161c7]" name="myfunction" duration-ms="9212" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:58Z">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Given xpath expression "" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:12:12.411Z'
+System info: host: 'LAPTOP-91EM3E8D', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3264, moz:profile: C:\Users\Mahesh\AppData\Loc..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51d35868-ec47-40ac-981d-ee6f160b8349
+*** Element info: {Using=xpath, value=}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Given xpath expression "" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.0', revision: '2321c73', time: '2017-11-02T22:12:12.411Z'
+System info: host: 'LAPTOP-91EM3E8D', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 3264, moz:profile: C:\Users\Mahesh\AppData\Loc..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51d35868-ec47-40ac-981d-ee6f160b8349
+*** Element info: {Using=xpath, value=}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:370)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:472)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at Core_Framework.Browser.findTheElement(Browser.java:39)
+	at Core_Framework.Browser.select(Browser.java:103)
+	at Core_Framework.Test_Loader.myfunction(Test_Loader.java:17)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:669)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:877)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1201)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:776)
+	at org.testng.TestRunner.run(TestRunner.java:634)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:425)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:420)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:385)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:334)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1318)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1243)
+	at org.testng.TestNG.runSuites(TestNG.java:1161)
+	at org.testng.TestNG.run(TestNG.java:1129)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myfunction -->
+      </class> <!-- Core_Framework.Test_Loader -->
+      <class name="TestNG_.MyNewTNG">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="beforeTest" is-config="true" duration-ms="2" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="f" duration-ms="11" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="afterMethod" is-config="true" duration-ms="16" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="afterClass" is-config="true" duration-ms="2" started-at="2017-11-26T19:56:49Z" finished-at="2017-11-26T19:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-11-26T19:56:58Z" finished-at="2017-11-26T19:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:TestNG_.MyNewTNG@5c3bd550]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-11-26T19:56:58Z" finished-at="2017-11-26T19:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- TestNG_.MyNewTNG -->
+    </test> <!-- Test_Firefox -->
+  </suite> <!-- SIMPLI_LEARN_TESTNG_Classes -->
+</testng-results>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SIMPLI_LEARN_TESTNG_Classes]">
+  <test name="Test_Firefox(failed)">
+    <parameter name="browser" value="ff"/>
+    <classes>
+      <class name="Core_Framework.Test_Loader">
+        <methods>
+          <include name="myfunction"/>
+        </methods>
+      </class> <!-- Core_Framework.Test_Loader -->
+    </classes>
+  </test> <!-- Test_Firefox(failed) -->
+</suite> <!-- Failed suite [SIMPLI_LEARN_TESTNG_Classes] -->

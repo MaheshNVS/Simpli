@@ -1,0 +1,14 @@
+
+<suite name="SIMPLI_LEARN_TESTNG_Classes">
+
+	 <test name="Test_Firefox">
+	<parameter name="browser" value="ff" />
+		<classes>
+			<class name="TestNG_.MyNewTNG"/>
+			<class name="Core_Framework.Test_Loader"/>
+		</classes>	
+	</test>	
+	
+	
+	
+</suite>

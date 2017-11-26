@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="11.54" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Eclipse\SImpli_Automation\target\test-classes;C:\Eclipse\SImpli_Automation\target\classes;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\Mahesh\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\Mahesh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahesh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mahesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahesh\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Mahesh\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Mahesh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mahesh\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Mahesh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mahesh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mahesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Mahesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Mahesh\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Mahesh\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Mahesh\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Mahesh\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Mahesh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mahesh\.m2\repository\org\apache\logging\log4j\log4j-core\2.9.1\log4j-core-2.9.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-api\2.20.1\surefire-api-2.20.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.20.1\surefire-logger-api-2.20.1.jar;C:\Users\Mahesh\.m2\repository\com\aventstack\extentreports\3.1.1\extentreports-3.1.1.jar;C:\Users\Mahesh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Mahesh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Mahesh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Mahesh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Mahesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Mahesh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Mahesh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Mahesh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin"/>
+    <property name="sun.java.command" value="C:\Users\Mahesh\AppData\Local\Temp\surefire7704156771950111313\surefirebooter9086251894310502869.jar C:\Users\Mahesh\AppData\Local\Temp\surefire7704156771950111313 2017-11-26T20-20-11_313-jvmRun1 surefire8594511532209167707tmp surefire_04994091573469824176tmp"/>
+    <property name="surefire.test.class.path" value="C:\Eclipse\SImpli_Automation\target\test-classes;C:\Eclipse\SImpli_Automation\target\classes;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-java\3.7.1\selenium-java-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-api\3.7.1\selenium-api-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.7.1\selenium-chrome-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.7.1\selenium-edge-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.7.1\selenium-firefox-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.7.1\selenium-ie-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.7.1\selenium-opera-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.7.1\selenium-remote-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.7.1\selenium-safari-driver-3.7.1.jar;C:\Users\Mahesh\.m2\repository\org\seleniumhq\selenium\selenium-support\3.7.1\selenium-support-3.7.1.jar;C:\Users\Mahesh\.m2\repository\net\bytebuddy\byte-buddy\1.7.5\byte-buddy-1.7.5.jar;C:\Users\Mahesh\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Mahesh\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Mahesh\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Mahesh\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\Mahesh\.m2\repository\com\google\guava\guava\23.0\guava-23.0.jar;C:\Users\Mahesh\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Mahesh\.m2\repository\com\google\errorprone\error_prone_annotations\2.0.18\error_prone_annotations-2.0.18.jar;C:\Users\Mahesh\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Mahesh\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Mahesh\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\Mahesh\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\Mahesh\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\Mahesh\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\Mahesh\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\Mahesh\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Mahesh\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mahesh\.m2\repository\org\apache\logging\log4j\log4j-core\2.9.1\log4j-core-2.9.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\logging\log4j\log4j-api\2.9.1\log4j-api-2.9.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-api\2.20.1\surefire-api-2.20.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-logger-api\2.20.1\surefire-logger-api-2.20.1.jar;C:\Users\Mahesh\.m2\repository\com\aventstack\extentreports\3.1.1\extentreports-3.1.1.jar;C:\Users\Mahesh\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\Mahesh\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\Mahesh\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\Mahesh\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\Mahesh\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\Mahesh\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\Users\Mahesh\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\Mahesh\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.20.1\surefire-testng-utils-2.20.1.jar;C:\Users\Mahesh\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.20.1\surefire-grouper-2.20.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mahesh"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_121"/>
+    <property name="basedir" value="C:\Eclipse\SImpli_Automation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Mahesh\AppData\Local\Temp\surefire7704156771950111313\surefirebooter9086251894310502869.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_121\lib\resources.jar;C:\Program Files\Java\jre1.8.0_121\lib\rt.jar;C:\Program Files\Java\jre1.8.0_121\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_121\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_121\lib\jce.jar;C:\Program Files\Java\jre1.8.0_121\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_121\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_121\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="user.name" value="Mahesh"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Mahesh\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mahesh\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="user.dir" value="C:\Eclipse\SImpli_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Maven\apache-maven-3.2.3\bin\myclass;C:\Program Files (x86)\HP SimplePass\;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Java\jre1.8.0_121;C:\Program Files\Java\jdk1.8.0_121;C:\SPARK\spark-1.6.1-bin-hadoop2.4;C:\Users\Mahesh\AppData\Local\Android\sdk\tools;C:\Users\Mahesh\AppData\Local\Android\sdk\platform-tools;C:\Program Files\Perforce;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Maven\apache-maven-3.3.9\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\PHP;C:\Apache\Apache24\bin;C:\CURL\curl-7.46.0-win64\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Skype\Phone\;C:\opscode\chef\bin\;C:\Program Files (x86)\nodejs\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\ANT\apache-ant-1.8.4\bin;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release\;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release\;C:\Allure\allure-2.3.4\allure-2.3.4\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\Mahesh\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Mahesh\AppData\Local\Programs\Python\Python36\;C:\COnverted\libs;C:\Users\Mahesh\AppData\Local\Microsoft\WindowsApps;C:\Users\Mahesh\AppData\Roaming\npm;C:\Eclipse\eclipse-jee-luna-SR2-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_121\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="f" classname="TestNG_.MyNewTNG" time="0.001"/>
+  <testcase name="myfunction" classname="Core_Framework.Test_Loader" time="10.463">
+    <failure message="Given xpath expression &quot;&quot; is invalid: SyntaxError: The expression is not a legal expression.&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: &apos;3.7.1&apos;, revision: &apos;8a0099a&apos;, time: &apos;2017-11-06T21:01:39.354Z&apos;&#10;System info: host: &apos;LAPTOP-91EM3E8D&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5540, moz:profile: C:\Users\Mahesh\AppData\Loc..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}&#10;Session ID: b31f1ade-ba37-4654-8ac5-646a3073c9eb&#10;*** Element info: {Using=xpath, value=}" type="org.openqa.selenium.InvalidSelectorException">org.openqa.selenium.InvalidSelectorException: 
+Given xpath expression "" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'LAPTOP-91EM3E8D', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5540, moz:profile: C:\Users\Mahesh\AppData\Loc..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b31f1ade-ba37-4654-8ac5-646a3073c9eb
+*** Element info: {Using=xpath, value=}
+	at Core_Framework.Test_Loader.myfunction(Test_Loader.java:17)
+</failure>
+    <system-out><![CDATA[Inside @AfterMEthod Annotation
+Inside @AfterClass Annotation
+]]></system-out>
+    <system-err><![CDATA[1511707820669	geckodriver	INFO	geckodriver 0.19.0
+1511707820685	geckodriver	INFO	Listening on 127.0.0.1:39390
+1511707821477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Mahesh\\AppData\\Local\\Temp\\rust_mozprofile.OEIjBsQjxuW6"
+1511707822634	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Mahesh\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 5540, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Mahesh\AppData\Local\openvr\openvrpaths.vrpath
+[Child 17464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 17464, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511707825373	Marionette	INFO	Listening on port 52230
+1511707825724	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511707825933	Marionette	DEBUG	Register listener.js for window 4294967297
+Nov 26, 2017 8:20:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1511707826126	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511707826776	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511707826776	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1511707827080	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=s9QaWvz4I6-H8Qet94TYAg&gws_rd=ssl"
+1511707827965	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=s9QaWvz4I6-H8Qet94TYAg&gws_rd=ssl"
+1511707828181	Marionette	DEBUG	Received DOM event "beforeunload" for "https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=s9QaWvz4I6-H8Qet94TYAg&gws_rd=ssl"
+1511707828324	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=s9QaWvz4I6-H8Qet94TYAg&gws_rd=ssl"
+1511707828327	Marionette	DEBUG	Received DOM event "unload" for "https://www.google.co.in/?gfe_rd=cr&dcr=0&ei=s9QaWvz4I6-H8Qet94TYAg&gws_rd=ssl"
+1511707829082	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.co.in/search?dcr=0&source=hp&ei=tNQaWo6SA8vPvgSarYiYDQ&q=selenium&oq=selenium&gs_l=psy-ab.12...772.804.0.879.8.1.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..8.0.0....0.pXbs9qXixzc"
+1511707829852	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.co.in/search?dcr=0&source=hp&ei=tNQaWo6SA8vPvgSarYiYDQ&q=selenium&oq=selenium&gs_l=psy-ab.12...772.804.0.879.8.1.0.0.0.0.0.0..0.0....0...1c.1.64.psy-ab..8.0.0....0.pXbs9qXixzc"
+]]></system-err>
+  </testcase>
+</testsuite>

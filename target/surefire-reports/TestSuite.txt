@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 11.54 s <<< FAILURE! - in TestSuite
+myfunction(Core_Framework.Test_Loader)  Time elapsed: 10.463 s  <<< FAILURE!
+org.openqa.selenium.InvalidSelectorException: 
+Given xpath expression "" is invalid: SyntaxError: The expression is not a legal expression.
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'LAPTOP-91EM3E8D', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 57.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 5540, moz:profile: C:\Users\Mahesh\AppData\Loc..., moz:webdriverClick: false, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b31f1ade-ba37-4654-8ac5-646a3073c9eb
+*** Element info: {Using=xpath, value=}
+	at Core_Framework.Test_Loader.myfunction(Test_Loader.java:17)
+
